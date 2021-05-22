@@ -19,8 +19,6 @@ public class ProgramRunt {
         while ((s = reader.readLine()) != null)
             System.out.println(s);
 
-
-
         //int retCode =
         p.waitFor();
         int retCode = p.exitValue();
