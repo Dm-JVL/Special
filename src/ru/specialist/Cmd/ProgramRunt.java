@@ -24,7 +24,5 @@ public class ProgramRunt {
         int retCode = p.exitValue();
 
         System.out.printf("Exit code: %d\n", retCode);
-
-
     }
 }
