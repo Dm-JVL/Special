@@ -14,7 +14,6 @@ public class ProgramRunt {
 
         var reader = new BufferedReader(
                 new InputStreamReader(p.getInputStream(), Charset.forName("cp866")));
-
         String s;
         while ((s = reader.readLine()) != null)
             System.out.println(s);
