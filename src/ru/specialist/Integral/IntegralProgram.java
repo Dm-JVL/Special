@@ -63,7 +63,6 @@ public class IntegralProgram {
         long t2 = System.currentTimeMillis();
         System.out.printf("Single Thread: %f Time: %d\n", r1, t2 - t1);
 
-
         //multiThread(Math::sin, 0, Math.PI/2);
         //multiThread(Math::sin, 0, Math.PI / 2);
         long t3 = System.currentTimeMillis();
